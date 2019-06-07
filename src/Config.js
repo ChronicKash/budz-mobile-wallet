@@ -17,12 +17,12 @@ const Config = {
     /**
      * If you can't figure this one out, I don't have high hopes
      */
-    coinName: 'TurtleCoin',
+    coinName: 'CannabisKashGold',
 
     /**
      * Prefix for URI encoded addresses
      */
-    uriPrefix: 'turtlecoin://',
+    uriPrefix: 'cannabiskashgold://',
 
     /**
      * How often to save the wallet, in milliseconds
@@ -30,16 +30,16 @@ const Config = {
     walletSaveFrequency: 60 * 1000,
 
     /**
-     * The amount of decimal places your coin has, e.g. TurtleCoin has two
+     * The amount of decimal places your coin has, e.g. CannabisKashGold has two
      * decimals
      */
     decimalPlaces: 2,
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In TurtleCoin, this converts to TRTL
+     * In TurtleCoin, this converts to BUDZ
      */
-    addressPrefix: 3914525,
+    addressPrefix: 0x27a054,
 
     /**
      * Request timeout for daemon operations in milliseconds
@@ -76,7 +76,7 @@ const Config = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: 'TRTL',
+    ticker: 'BUDZ',
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -174,12 +174,12 @@ const Config = {
     /**
      * Fee to take on all transactions, in percentage
      */
-    devFeePercentage: 0.5,
+    devFeePercentage: 0.01,
 
     /**
      * Address to send dev fee to
      */
-    devFeeAddress: 'TRTLv1E3ThL66fHthRHyzPSDqeUazPA9eBQYkuRnp8svKgvdoecQtqhSRaD59CEuH8XnYsw3YGtw1RWsQSqtHLqUXu4tvk9LryR',
+    devFeeAddress: 'caxxtmTcdo8hkoCErrjVrsTciufYnHfkDX8HaY8u2fuFgWEWss77xc7Di85KDg4K3gfNTDTZPsWrAbWWFPgmKgXggXDVDhcvTiQ',
 
     /**
      * Base url for price API
@@ -188,20 +188,20 @@ const Config = {
      * you just set this to an empty string. If you have another API you want
      * it to support, you're going to have to modify the code in Currency.js.
      */
-    priceApiLink: 'https://api.coingecko.com/api/v3/simple/price',
+    //priceApiLink: 'https://api.coingecko.com/api/v3/simple/price',
 
     /**
      * Default daemon to use. Can either be a BlockchainCacheApi(baseURL, SSL),
      * or a ConventionalDaemon(url, port).
      */
-    defaultDaemon: new BlockchainCacheApi('blockapi.turtlepay.io', true),
+    //defaultDaemon: new BlockchainCacheApi('blockapi.turtlepay.io', true),
 
     /**
      * A link to where a bug can be reported for your wallet. Please update
      * this if you are forking, so we don't get reported bugs for your wallet...
      *
      */
-    repoLink: 'https://github.com/turtlecoin/turtlecoin-mobile-wallet/issues',
+    repoLink: 'https://github.com/ChronicKash/budz-mobile-wallet/issues',
 
     /**
      * This only controls the name in the settings screen.
