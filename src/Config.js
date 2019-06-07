@@ -49,7 +49,7 @@ const Config = {
     /**
      * The block time of your coin, in seconds
      */
-    blockTargetTime: 30,
+    blockTargetTime: 60,
 
     /**
      * How often to process blocks, in millseconds
