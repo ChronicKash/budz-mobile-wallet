@@ -90,7 +90,7 @@ export class DisclaimerScreen extends React.Component {
                                 fontSize: 15,
                                 color: this.props.screenProps.theme.slightlyMoreVisibleColour,
                             }}>
-                                I understand that I am the sole owner of my private keys/seed, and if I lose them, my wallet cannot be recovered.
+                                I understand that I am the sole owner of my private keys/seed, and if I lose them, my wallet is up in smoke cannot be recovered.
                             </Text>
                         </View>
 
@@ -112,7 +112,7 @@ export class DisclaimerScreen extends React.Component {
                                 fontSize: 15,
                                 color: this.props.screenProps.theme.slightlyMoreVisibleColour,
                             }}>
-                                I understand that no warranty or guarantee is provided, expressed, or implied when using this app and any funds lost in using this app are not the responsibility of the application creator, publisher, or distributor.
+                                I understand that no warranty or guarantee is provided, expressed, or implied when using this app and any funds lost in using this app are not the responsibility of the application creator, publisher, distributor or Chich & Chong.
                             </Text>
                         </View>
 
