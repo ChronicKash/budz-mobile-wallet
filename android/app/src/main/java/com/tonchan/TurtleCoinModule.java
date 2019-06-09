@@ -12,17 +12,17 @@ import com.facebook.react.bridge.ReadableMap;
 
 public class TurtleCoinModule extends ReactContextBaseJavaModule {
     static {
-        System.loadLibrary("TurtleCoin_jni");
+        System.loadLibrary("CannabisKashGold_jni");
     }
 
     public TurtleCoinModule(ReactApplicationContext reactContext) {
         super(reactContext); //required by React Native
     }
 
-    /* Access this by doing NativeModules.TurtleCoin in react */
+    /* Access this by doing NativeModules.CannabisKashGold in react */
     @Override
     public String getName() {
-        return "TurtleCoin";
+        return "CannabisKashGold";
     }
 
     @ReactMethod
