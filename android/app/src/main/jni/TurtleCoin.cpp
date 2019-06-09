@@ -85,7 +85,7 @@ extern "C" jint JNI_OnLoad(JavaVM *vm, void *reserved) {
 }
 
 extern "C" JNIEXPORT jobjectArray JNICALL
-Java_com_tonchan_TurtleCoinModule_processBlockOutputsJNI(
+Java_com_tonchan_CannabisKashGoldModule_processBlockOutputsJNI(
     JNIEnv *env,
     jobject instance,
     jobject jWalletBlockInfo,
@@ -107,7 +107,7 @@ Java_com_tonchan_TurtleCoinModule_processBlockOutputsJNI(
 }
 
 extern "C" JNIEXPORT jobjectArray JNICALL
-Java_com_tonchan_TurtleCoinModule_generateRingSignaturesJNI(
+Java_com_tonchan_CannabisKashGoldModule_generateRingSignaturesJNI(
     JNIEnv *env,
     jobject instance,
     jstring jPrefixHash,
@@ -129,7 +129,7 @@ Java_com_tonchan_TurtleCoinModule_generateRingSignaturesJNI(
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_tonchan_TurtleCoinModule_generateKeyDerivationJNI(
+Java_com_tonchan_CannabisKashGoldModule_generateKeyDerivationJNI(
     JNIEnv *env,
     jobject instance,
     jstring jTransactionPublicKey,
@@ -146,7 +146,7 @@ Java_com_tonchan_TurtleCoinModule_generateKeyDerivationJNI(
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_tonchan_TurtleCoinModule_generateKeyImageJNI(
+Java_com_tonchan_CannabisKashGoldModule_generateKeyImageJNI(
     JNIEnv *env,
     jobject instance,
     jstring jPublicEphemeral,
@@ -163,7 +163,7 @@ Java_com_tonchan_TurtleCoinModule_generateKeyImageJNI(
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_tonchan_TurtleCoinModule_deriveSecretKeyJNI(
+Java_com_tonchan_CannabisKashGoldModule_deriveSecretKeyJNI(
     JNIEnv *env,
     jobject instance,
     jstring jDerivation,
@@ -181,7 +181,7 @@ Java_com_tonchan_TurtleCoinModule_deriveSecretKeyJNI(
 }
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_tonchan_TurtleCoinModule_derivePublicKeyJNI(
+Java_com_tonchan_CannabisKashGoldModule_derivePublicKeyJNI(
     JNIEnv *env,
     jobject instance,
     jstring jDerivation,
