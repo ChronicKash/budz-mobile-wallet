@@ -1,6 +1,6 @@
-# TonChan - A mobile, native TurtleCoin wallet
+# TonChan - A mobile, native CannabisKashGold wallet
 
-![Screenshot](https://i.imgur.com/F5LMYKl.png)
+![Screenshot](https://pbs.twimg.com/media/D91MbHMU4AUsD39.jpg)
 
 ## Setup
 
