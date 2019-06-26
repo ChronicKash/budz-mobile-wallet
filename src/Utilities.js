@@ -12,7 +12,7 @@ import { StackActions, NavigationActions } from 'react-navigation';
 
 import {
     validateAddresses, WalletErrorCode, validatePaymentID, prettyPrintAmount,
-} from 'turtlecoin-wallet-backend';
+} from 'CannabisKashGold-wallet-backend';
 
 import * as Qs from 'query-string';
 
