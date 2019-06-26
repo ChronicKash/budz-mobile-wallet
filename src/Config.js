@@ -169,7 +169,7 @@ const Config = {
      * should be equal to your current block count. If it's significantly different,
      * you can offset your timestamp to fix the discrepancy
      */
-    chainLaunchTimestamp: new Date(1000 * 1513031505),
+    chainLaunchTimestamp: new Date(1000 * 1559571998),
 
     /**
      * Fee to take on all transactions, in percentage
@@ -218,10 +218,6 @@ const Config = {
      */
     appVersion: 'v0.1.0',
 
-    /**
-     * Base URL for us to chuck a hash on the end, and find a transaction
-     */
-    explorerBaseURL: 'https://explorer.turtlecoin.lol/?search=',
 
     /**
      * A link to your app on the Apple app store. Currently blank because we
@@ -232,7 +228,7 @@ const Config = {
     /**
      * A link to your app on the google play store
      */
-    googlePlayLink: 'https://play.google.com/store/apps/details?id=com.tonchan',
+    googlePlayLink: 'https://discord.gg/2UuVSJA',
 };
 
 module.exports = Config;
