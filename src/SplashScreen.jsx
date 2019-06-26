@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import { WalletBackend } from 'turtlecoin-wallet-backend';
+import { WalletBackend } from 'CannabisKashGold-wallet-backend';
 
 import { View, Alert } from 'react-native';
 
