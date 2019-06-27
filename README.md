@@ -8,9 +8,9 @@ Note: Make sure you use yarn instead of npm. Since there is no package-lock.json
 
 * Clone the repo:
 
-`git clone https://github.com/turtlecoin/turtlecoin-mobile-wallet.git`
+`git clone https://github.com/ChronicKash/budz-mobile-wallet.git`
 
-`cd turtlecoin-mobile-wallet`
+`cd CannabisKashGold-mobile-wallet`
 
 * Install React Native CLI
 
@@ -109,7 +109,7 @@ TonChan supports two kinds of QR codes.
 
 * turtlecoin:// URI encoded as a QR code.
 
-Your uri must being with `turtlecoin://` followed by the address to send to, for example, `turtlecoin://TRTLv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW`
+Your uri must being with `cannabiskashgold://` followed by the address to send to, for example, `cannabiskashgold://caxxtmTcdo8hkoCErrjVrsTciufYnHfkDX8HaY8u2fuFgWEWss77xc7Di85KDg4K3gfNTDTZPsWrAbWWFPgmKgXggXDVDhcvTiQ`
 
 There are a few optional parameters.
 
@@ -120,10 +120,10 @@ There are a few optional parameters.
 An example of a URI containing all of the above parameters:
 
 ```
-turtlecoin://TRTLv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW?amount=10000&name=Starbucks%20Coffee&paymentid=f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402
+cannabiskashgold://caxxtmTcdo8hkoCErrjVrsTciufYnHfkDX8HaY8u2fuFgWEWss77xc7Di85KDg4K3gfNTDTZPsWrAbWWFPgmKgXggXDVDhcvTiQ?amount=10000&name=Starbucks%20Coffee&paymentid=f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402
 ```
 
-This would send `100 TRTL` (10000 in atomic units) to the address `TRTLv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW`, using the name `Starbucks Coffee` (Note the URI encoding), and using a payment ID of `f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402`
+This would send `100 TRTL` (10000 in atomic units) to the address `caxxtmTcdo8hkoCErrjVrsTciufYnHfkDX8HaY8u2fuFgWEWss77xc7Di85KDg4K3gfNTDTZPsWrAbWWFPgmKgXggXDVDhcvTiQ`, using the name `Starbucks Coffee` (Note the URI encoding), and using a payment ID of `f13adc8ac78eb22ffcee3f82e0e9ffb251dc7dc0600ef599087a89b623ca1402`
 
 You can also just display the URI as a hyperlink. If a user clicks the link, it will open the app, and jump to the confirm screen, just as a QR code would function. (Provided all the fields are given)
 
