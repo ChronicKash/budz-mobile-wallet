@@ -194,7 +194,7 @@ const Config = {
      * Default daemon to use. Can either be a BlockchainCacheApi(baseURL, SSL),
      * or a ConventionalDaemon(url, port).
      */
-    defaultDaemon: new ConventionalDaemon('10.0.2.15:8011', true),
+    defaultDaemon: new ConventionalDaemon('10.0.2.15', 8010),
 
     /**
      * A link to where a bug can be reported for your wallet. Please update
