@@ -188,7 +188,7 @@ const Config = {
      * you just set this to an empty string. If you have another API you want
      * it to support, you're going to have to modify the code in Currency.js.
      */
-    //priceApiLink: 'https://api.coingecko.com/api/v3/simple/price',
+    priceApiLink: 'https://xapi.finexbox.com/v1/ticker?market=budz_btc',
 
     /**
      * Default daemon to use. Can either be a BlockchainCacheApi(baseURL, SSL),
