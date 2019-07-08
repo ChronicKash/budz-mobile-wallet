@@ -6,7 +6,7 @@ import { Platform } from 'react-native';
 
 import {
     MixinLimit, MixinLimits, BlockchainCacheApi, ConventionalDaemon
-} from 'CannabisKashGold-wallet-backend';
+} from 'cannabiskashgold-wallet-backend';
 
 import {
     derivePublicKey, generateKeyDerivation, generateRingSignatures,
@@ -17,7 +17,7 @@ const Config = {
     /**
      * If you can't figure this one out, I don't have high hopes- if you have nothing nice to say than
      */
-    coinName: 'CannabisKashGold',
+    coinName: 'cannabiskashgold',
 
     /**
      * Prefix for URI encoded addresses
@@ -30,14 +30,14 @@ const Config = {
     walletSaveFrequency: 60 * 1000,
 
     /**
-     * The amount of decimal places your coin has, e.g. CannabisKashGold has two
+     * The amount of decimal places your coin has, e.g. cannabiskashgold has two
      * decimals
      */
     decimalPlaces: 2,
 
     /**
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
-     * In TurtleCoin, this converts to BUDZ
+     * In CannabisKash, this converts to BUDZ
      */
     addressPrefix: 0x27a054,
 
@@ -76,7 +76,7 @@ const Config = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: 'BUDZ',
+    ticker: 'budz',
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
