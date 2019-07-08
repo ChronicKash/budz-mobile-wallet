@@ -12,7 +12,7 @@ import com.facebook.react.bridge.ReadableMap;
 
 public class CannabisKashGoldModule extends ReactContextBaseJavaModule {
     static {
-        System.loadLibrary("cannabiskashgold_jni");
+        System.loadLibrary("CannabisKashGold_jni");
     }
 
     public CannabisKashGold(ReactApplicationContext reactContext) {
@@ -22,7 +22,7 @@ public class CannabisKashGoldModule extends ReactContextBaseJavaModule {
     /* Access this by doing NativeModules.CannabisKashGold in react */
     @Override
     public String getName() {
-        return "cannabiskashgold";
+        return "CannabisKashGold";
     }
 
     @ReactMethod
