@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import { WalletBackend } from 'CannabisKashGold-wallet-backend';
+import { WalletBackend } from 'cannabiskashgold-wallet-backend';
 
 import { View, Alert } from 'react-native';
 
