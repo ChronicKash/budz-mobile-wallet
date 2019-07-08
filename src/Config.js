@@ -17,7 +17,7 @@ const Config = {
     /**
      * If you can't figure this one out, I don't have high hopes- if you have nothing nice to say than
      */
-    coinName: 'cannabiskashgold',
+    coinName: 'CannabisKashGold',
 
     /**
      * Prefix for URI encoded addresses
@@ -76,7 +76,7 @@ const Config = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: 'budz',
+    ticker: 'BUDZ',
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
