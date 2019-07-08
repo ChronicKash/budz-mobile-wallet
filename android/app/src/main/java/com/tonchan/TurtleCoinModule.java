@@ -10,19 +10,19 @@ import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 
-public class TurtleCoinModule extends ReactContextBaseJavaModule {
+public class CannabisKashGoldModule extends ReactContextBaseJavaModule {
     static {
-        System.loadLibrary("CannabisKashGold_jni");
+        System.loadLibrary("cannabiskashgold_jni");
     }
 
-    public TurtleCoinModule(ReactApplicationContext reactContext) {
+    public CannabisKashGold(ReactApplicationContext reactContext) {
         super(reactContext); //required by React Native
     }
 
     /* Access this by doing NativeModules.CannabisKashGold in react */
     @Override
     public String getName() {
-        return "CannabisKashGold";
+        return "cannabiskashgold";
     }
 
     @ReactMethod
