@@ -174,7 +174,7 @@ const Config = {
     /**
      * Fee to take on all transactions, in percentage
      */
-    devFeePercentage: 1.00,
+    devFeePercentage: 0.01,
 
     /**
      * Address to send dev fee to
