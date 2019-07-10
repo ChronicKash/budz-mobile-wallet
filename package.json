@@ -56,8 +56,8 @@
     "request": "^2.88.0",
     "rn-nodeify": "^10.0.1",
     "stream-browserify": "^1.0.0",
-    "turtlecoin-crypto": "^0.0.11",
-    "turtlecoin-wallet-backend": "https://github.com/turtlecoin/turtlecoin-wallet-backend-js.git",
+    "cannabiskashgold-crypto": "^0.0.11",
+    "cannabiskashgold-wallet-backend": "^1.1.11",
     "url": "^0.10.3",
     "vm-browserify": "0.0.4"
   },
