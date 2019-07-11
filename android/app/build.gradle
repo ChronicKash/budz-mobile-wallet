@@ -104,7 +104,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 10
-        versionName "v1.0.0"
+        versionName "v0.1.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
             moduleName "CannabisKashGold_jni"
